@@ -14,18 +14,16 @@ h2, h3 {
   padding-bottom: 20px;
 }
 
-h1 a {
-  float: left;
-  padding-top: 35px;
-}
-
 a {
   color: #fff;
-  text-decoration: none;
-  float: left;
 }
 
 
+.main-text {
+  color: #f7c08a;
+}
+
+/* navbar */
 
 .container {
   overflow: auto;
@@ -36,7 +34,13 @@ a {
 #navbar {
   background: #333;
   overflow: auto;
-  
+}
+
+#navbar h1 a {
+  float: left;
+  padding-top: 35px;
+  text-decoration: none;
+  color: #fff;
 }
 
 #navbar ul {
@@ -55,6 +59,7 @@ a {
   color: #fff;
   text-decoration: none;
   padding: 40px;
+  float: left;
 }
 
 #navbar ul li a:hover,
@@ -63,11 +68,37 @@ a {
   color: #f7c08a;
 }
 
+/* section1 */
+
 #section1 {
   background: url(../img/showcase.jpg) no-repeat center center/cover;
   height: 600px;
-  
 }
+
+.section1-content {
+  padding: 200px;
+  text-align: center;
+}
+
+#section1 h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+#section1 p {
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+#section1 a {
+  background: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  
+}  
+  
+
 
 
 
