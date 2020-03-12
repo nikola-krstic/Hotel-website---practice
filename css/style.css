@@ -23,6 +23,16 @@ a {
   color: #f7c08a;
 }
 
+.bg-main {
+  background: #f7c08a;
+  color: #333;
+}
+
+.bg-light {
+  background: #fff;
+  color: #333;
+}
+
 /* navbar */
 
 .container {
@@ -95,11 +105,35 @@ a {
   background: #333;
   padding: 10px 20px;
   text-decoration: none;
-  
 }  
-  
+
+/* section2 */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+#section2 i {
+  margin-bottom: 10px;
+}
 
 
+
+/* footer */
+
+#clr {
+  clear: both;
+}
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
 
 
 
